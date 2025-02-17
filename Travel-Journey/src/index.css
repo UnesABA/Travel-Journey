@@ -1,0 +1,23 @@
+body{
+  font-family: "Inter";
+}
+
+.header{
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  gap: 10px;
+}
+
+.header-icon {
+  color: rgb(246, 240, 240);
+  font-size: 50px;
+}
+
+.header-title{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
