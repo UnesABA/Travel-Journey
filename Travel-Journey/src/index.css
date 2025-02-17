@@ -22,18 +22,14 @@ body{
   font-weight: 500px;
 }
 
-.japan-container{
-  background-color: yellow;
+.country-container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  height: 400px;
+  gap: 30px;
   padding: 50px;
 }
 
 .mount-fuji{
-  flex: 1;
   height: 350px;
   width: 300px;
   border-radius: 10px;
@@ -42,6 +38,44 @@ body{
 .about-mount-fuji{
   display: flex;
   flex-direction: column;
-  flex: 2;
-  background-color: white;
+  height: 250px;
+  padding: 20px;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.country-name{
+  width: 40px;
+  font-weight: 400;
+}
+
+.google-maps-link{
+  color: gray;
+}
+
+.place-name{
+  height: 90px;
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+.start-end-date{
+  display: flex;
+  gap: 10px;
+  font-weight: 300;
+}
+
+.start-end-date h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.description h4{
+  font-weight: 500;
+  max-width: 500px;
+  margin: 0px;
 }
