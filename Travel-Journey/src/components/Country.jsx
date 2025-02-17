@@ -20,9 +20,9 @@ const Country = () => {
         
         <div>
           <div className= "start-end-date">
-            <h3>12 jan, 2023</h3>
+            <h3>12 jan, 2025</h3>
             <h3>-</h3>
-            <h3>24 jan, 2023</h3>
+            <h3>24 jan, 2025</h3>
           </div>
           <div className= "description">
             <h4>
