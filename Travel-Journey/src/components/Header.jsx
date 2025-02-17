@@ -9,7 +9,7 @@ const Header = () => {
           <FaGlobe className='header-icon'/>
         </div>
         <div className= "header-title">
-          my travel journey.
+          my travel journey
         </div>
       </div>
     </>

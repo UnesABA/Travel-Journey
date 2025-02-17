@@ -1,32 +1,34 @@
 import React from 'react'
-import Mount_fuji from '/Mount_fuji.jpg'
+import { MapPin } from "lucide-react";
 
-const Country = () => {
+const Country = ({place}) => {
   return (
     <div className= "country-container">
       <div>
-        <img src= {Mount_fuji} className= "mount-fuji" alt="Mount Fuji" />
+        <img src= {`/${place.coverImg}`} className= "place-pic" alt="Mount Fuji" />
       </div>
-      <div className= "about-mount-fuji">
+      <div className= "about-place">
         <div className='location'>
-          <div></div>
-          <p className= "country-name">JAPAN</p>
-          <u className= "google-maps-link">View on Google Maps</u>
+          <MapPin className= "location-icon" />
+          <h3 className= "country-name">{place.location}</h3>
+          <a href= {place.googleMapUrl} className= "google-maps-link">
+            <u>View on Google Maps</u>
+          </a>
         </div>
 
         <div className= "place-name">
-          <h1>Mount Fuji</h1>
+          <h1>{place.title}</h1>
         </div>
         
         <div>
           <div className= "start-end-date">
-            <h3>12 jan, 2025</h3>
+            <h3>{place.startDate}</h3>
             <h3>-</h3>
-            <h3>24 jan, 2025</h3>
+            <h3>{place.endDate}</h3>
           </div>
           <div className= "description">
             <h4>
-              Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet), Mount Fuji is the single most popular tourist site in Japan, for both japanese and foreign tourists.
+              {place.description}
             </h4>
           </div>
         </div>

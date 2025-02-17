@@ -23,38 +23,44 @@ body{
 }
 
 .country-container{
+  background-color: rgb(225, 224, 224);
   display: flex;
   align-items: center;
   gap: 30px;
   padding: 50px;
 }
 
-.mount-fuji{
+.place-pic{
   height: 350px;
   width: 300px;
   border-radius: 10px;
 }
 
-.about-mount-fuji{
+.about-place{
   display: flex;
   flex-direction: column;
-  height: 250px;
-  padding: 20px;
+  height: 300px;
+  padding-left: 30px;
 }
 
 .location{
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
+}
+
+.location-icon{
+  size: 30px; 
+  color: red;
 }
 
 .country-name{
-  width: 40px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .google-maps-link{
   color: gray;
+  cursor: pointer;
 }
 
 .place-name{
@@ -76,6 +82,7 @@ body{
 
 .description h4{
   font-weight: 500;
-  max-width: 500px;
+  max-width: 350px;
   margin: 0px;
+  line-height: 1.5;
 }
