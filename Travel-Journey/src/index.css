@@ -19,5 +19,29 @@ body{
 .header-title{
   color: white;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 500px;
+}
+
+.japan-container{
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  height: 400px;
+  padding: 50px;
+}
+
+.mount-fuji{
+  flex: 1;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.about-mount-fuji{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background-color: white;
 }
